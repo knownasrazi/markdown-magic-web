@@ -12,7 +12,7 @@ Live markdown magic - preview, slides, and export to PDF or HTML.
 
 This README is the changelog. Every release is a commit.
 
-**v1.0.0** — Initial cream release. Markdown + Vite core, stone tokens, and a clean surface.
+**v1.0.0** — Initial clean release. Markdown + Vite core, stone tokens, and a clean surface.
 
 ## Install
 
@@ -22,9 +22,9 @@ cd markdown-magic-web
 bun install && bun run dev
 ```
 
-## Why cream?
+## Why clean?
 
-Because tools should feel like paper. Cream is paper that has lived a little.
+Because tools should feel like paper. Clean is paper that has lived a little.
 
 ## License
 
