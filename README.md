@@ -1,6 +1,17 @@
 > ![license](https://img.shields.io/github/license/knownasrazi/markdown-magic-web?style=flat-square&color=ebe7e0) ![lang](https://img.shields.io/badge/lang-Markdown%20%2B%20Vite-ede9e3?style=flat-square) ![version](https://img.shields.io/badge/version-1.0.0-ebe7e0?style=flat-square)
 
 ---
+## Demo
+
+![Demo](./public/demo.svg)
+
+**Live:** https://knownasrazi.github.io/markdown-magic-web/
+
+> Screenshot is a placeholder — Pages deploys on push to `main`.
+
+---
+
+
 
 # markdown-magic-web — Markdown, magically live.
 
