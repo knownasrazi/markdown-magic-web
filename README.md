@@ -1,58 +1,31 @@
-﻿<div align="center">
-
-# markdown-magic-web
-
-**Markdown, magically live.**
-
-![license](https://img.shields.io/github/license/knownasrazi/markdown-magic-web?style=flat-square&color=ebe7e0&label=license)
-![version](https://img.shields.io/badge/version-1.0.0-ebe7e0?style=flat-square&label=version)
-![cream](https://img.shields.io/badge/cream-aesthetic-ede9e3?style=flat-square&label=style)
-
-Live markdown magic - preview, slides, and export to PDF or HTML.
-
-</div>
+> ![license](https://img.shields.io/github/license/knownasrazi/markdown-magic-web?style=flat-square&color=ebe7e0) ![lang](https://img.shields.io/badge/lang-Markdown%20%2B%20Vite-ede9e3?style=flat-square) ![version](https://img.shields.io/badge/version-1.0.0-ebe7e0?style=flat-square)
 
 ---
 
-## Preview
+# markdown-magic-web — Markdown, magically live.
 
-> Markdown, magically live. - built for vibe coders and web developers who ship.
+Live markdown magic - preview, slides, and export to PDF or HTML.
 
-## Stack
+---
 
-- Vite + React + TypeScript
-- Tailwind CSS (cream palette)
-- Biome for lint and format
+## Changelog-aware
 
-## Get started
+This README is the changelog. Every release is a commit.
+
+**v1.0.0** — Initial cream release. Markdown + Vite core, stone tokens, and a clean surface.
+
+## Install
 
 ```bash
 git clone https://github.com/knownasrazi/markdown-magic-web.git
 cd markdown-magic-web
-bun install
-bun run dev
-```
-markdown-magic-web/
-  src/
-    App.tsx      # app shell
-    index.css    # cream tokens
-  index.html
-  vite.config.ts
-  package.json
+bun install && bun run dev
 ```
 
-## Cream tokens
+## Why cream?
 
-Cream, stone, and ink - low contrast, high taste.
+Because tools should feel like paper. Cream is paper that has lived a little.
 
 ## License
 
-[MIT](./LICENSE) + [Razi](https://github.com/knownasrazi)
-
----
-
-<div align="center">
-
-**markdown-magic-web** - Live markdown magic - preview, slides, and export to PDF or HTML.
-
-</div>
+MIT — [Razi](https://github.com/knownasrazi)
