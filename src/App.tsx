@@ -1,13 +1,12 @@
-﻿export default function App() {
+import { useState } from "react";
+export default function App(){
+  const [md,setMd]=useState("# Hello\n\nLive **markdown** magic ✨");
+  function toHtml(s:string){ return s.replace(/^# (.*)/gm,"<h1>$1</h1>").replace(/\*\*(.*?)\*\*/g,"<b>$1</b>").replace(/\n/g,"<br/>"); }
   return (
-    <main className="min-h-screen bg-[#fdfcfa] text-[#1a1a1a]">
-      <div className="mx-auto max-w-3xl px-6 py-24">
-        <p className="text-sm tracking-widest text-[#9a9590]">markdown-magic-web</p>
-        <h1 className="mt-2 text-4xl font-light tracking-tight">Markdown, magically live.</h1>
-        <p className="mt-4 max-w-prose text-[#5a5754]">Live markdown magic - preview, slides, and export to PDF or HTML.</p>
-        <div className="mt-8 rounded-2xl border border-[#ebe7e0] bg-white p-6">
-          <p className="text-sm text-[#9a9590]">Clean aesthetic - built for vibe coders.</p>
-        </div>
+    <main className="bg-[#fdfcfa] min-h-screen text-[#1a1a1a]">
+      <div className="mx-auto max-w-5xl px-6 py-8 flex gap-6">
+        <textarea value={md} onChange={e=>setMd(e.target.value)} rows={12} className="flex-1 rounded-2xl border border-[#ebe7e0] p-3 text-sm font-mono" />
+        <div className="flex-1 rounded-2xl border border-[#ebe7e0] bg-white p-6 prose text-sm" dangerouslySetInnerHTML={{__html: toHtml(md)}} />
       </div>
     </main>
   );
